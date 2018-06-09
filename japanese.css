@@ -3,10 +3,12 @@ body {
    /*background-repeat: no-repeat;
    background-attachment: fixed;*/
    background-size: cover;
+   margin: 0px;
 }
 
 .option {
-   background-color:white;
-   border-bottom: 1px solid red;
-   height:6.25%;
+   background-color: #ffffff33;
+   height: 6.25%;
+   width: 20%;
+   margin-left: auto;
 }
