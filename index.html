@@ -78,13 +78,7 @@ $(function() {
 });
       });
 </script>
-<script type="text/javascript">
-  var jbubble = getElementbyId('japanese')
-  jbubble.onclick = function(){
-  window.open ('/japanese.html','_self',false)
-  };
 
-</script>
   
   
 </head>
@@ -102,7 +96,14 @@ $(function() {
     <li>General</li>
 </ul>
     <div>
-
+      
+<script type="text/javascript">
+  var jbubble = document.getElementbyId("japanese");
+  jbubble.onclick = function(){
+  window.open ('/japanese.html','_self',false);
+  };
+</script>
+      
 
 </body>
 </html>
