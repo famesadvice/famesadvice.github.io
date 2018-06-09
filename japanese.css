@@ -1,1 +1,7 @@
+body {
+   background-image: url("/japan-logo.png");
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+}
 
