@@ -1,3 +1,4 @@
 body {
-   background-image: url("http://www.bacanal.com.ar/wp-content/uploads/2017/05/CHEFCHA-VA.jpg") repeat-x fixed;
+   background: url("http://www.bacanal.com.ar/wp-content/uploads/2017/05/CHEFCHA-VA.jpg") top right no-repeat;
+   background-attachment:fixed;
 }
