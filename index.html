@@ -98,8 +98,8 @@ $(function() {
     <div>
       
 <script type="text/javascript">
-  var jbubble = document.getElementById("japanese");
-  jbubble.onclick = function(){
+  document.getElementById("japanese").addEventListener("click", myFunction);
+  function myFunction() {
   window.open ('/japanese.html','_self',false);
   };
 </script>
