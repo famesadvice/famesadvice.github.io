@@ -17,14 +17,16 @@ body, * {
 
 li {
     position: absolute;
-    width: 100px;
-    height: 100px;    
+    width: 150px;
+    height: 150px;
     -webkit-border-radius: 30px;
     -moz-border-radius: 30px;
-    border-radius: 30px;
-    background-color:#0FF;
-    line-height: 60px;
-    text-align:center;
-    cursor:pointer; 
+    border-radius: 75px;
+    background-color: #ed69f5e8;
+    line-height: 150px;
+    text-align: center;
+    cursor: pointer;
+    font-size: xx-large;
+    font-family: Chewy;
 }
 
