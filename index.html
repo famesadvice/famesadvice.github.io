@@ -89,18 +89,43 @@ $(function() {
   <div class="bubbles">
   <ul id="wrapper">
     <li id="japanese">Japanese</li>
-    <li>Chinese</li>
-    <li>Arabic</li>
-    <li>Persian</li>
-    <li>Hebrew</li>
-    <li>General</li>
+    <li id="chinese">Chinese</li>
+    <li id="arabic">Arabic</li>
+    <li id="persian">Persian</li>
+    <li id="hebrew">Hebrew</li>
+    <li id="general">General</li>
 </ul>
     <div>
       
 <script type="text/javascript">
-  document.getElementById("japanese").addEventListener("click", myFunction);
-  function myFunction() {
+  document.getElementById("japanese").addEventListener("click", japanesePage);
+  function japanesePage() {
   window.open ('/japanese.html','_self',false);
+  };
+  
+  document.getElementById("chinese").addEventListener("click", chinesePage);
+  function chinesePage() {
+  window.open ('/chinese.html','_self',false);
+  };
+  
+  document.getElementById("arabic").addEventListener("click", arabicPage);
+  function arabicPage() {
+  window.open ('/arabic.html','_self',false);
+  };
+  
+  document.getElementById("japanese").addEventListener("click", persianPage);
+  function persianPage() {
+  window.open ('/persian.html','_self',false);
+  };
+  
+  document.getElementById("hebrew").addEventListener("click", hebrewPage);
+  function hebrewPage() {
+  window.open ('/hebrew.html','_self',false);
+  };
+  
+  document.getElementById("general").addEventListener("click", generalPage);
+  function generalPage() {
+  window.open ('/general.html','_self',false);
   };
 </script>
       
