@@ -78,6 +78,15 @@ $(function() {
 });
       });
 </script>
+<script type="text/javascript">
+  var jbubble = getElementbyId('japanese')
+  jbubble.onclick = function(){
+  window.open ('/japanese.html','_self',false)
+  };
+
+</script>
+  
+  
 </head>
 <body>
   <div class="header">
@@ -85,7 +94,7 @@ $(function() {
   </div>
   <div class="bubbles">
   <ul id="wrapper">
-    <li><a href="/japanese.html">Japanese</a></li>
+    <li index="japanese">Japanese</li>
     <li>Chinese</li>
     <li>Arabic</li>
     <li>Persian</li>
