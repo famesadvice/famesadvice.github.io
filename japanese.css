@@ -7,8 +7,12 @@ body {
 }
 
 #option {
-   background-color: #ffffff33;
-   height: 6.25%;
-   width: 20%;
-   margin-left: auto;
+   background-color: #ffffff69;
+    height: 6.25%;
+    width: 35%;
+    margin-left: auto;
+    text-align: center;
+    font-weight: 900;
+    vertical-align: middle;
+    font-size: larger;
 }
