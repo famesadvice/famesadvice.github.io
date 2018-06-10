@@ -42,5 +42,6 @@ body {
    border: none;
 }
 
-a:hover .col-sm {
-   transform: scale (1.1)
+a:hover {
+   transform: scale (1.1);
+}
