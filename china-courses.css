@@ -3,7 +3,7 @@ body {
 }
 
 .header {
-    background: url(/china-landscape.jpg) no-repeat center;
+    background: url("/china-landscape.jpg") no-repeat center;
     height: 35%;
     background-size: cover;
     align-items: center;
