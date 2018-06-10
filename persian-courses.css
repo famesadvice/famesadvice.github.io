@@ -3,7 +3,7 @@ body {
 }
 
 .header {
-    background: url("/persia-landscape.jpg") no-repeat center;
+    background: url("/persia-landscape.jpg") no-repeat left;
     height: 35%;
     background-size: cover;
     align-items: center;
@@ -19,7 +19,7 @@ body {
 }
 
 .content {
-    background-color: #801800;
+    background-color: #f0c36d;
     height: 100%;
 }
 
