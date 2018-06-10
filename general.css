@@ -3,3 +3,12 @@ body {
   background-size: cover;
   margin: 0px;
 }
+
+.content {
+    height: 60%;
+    width: 25%;
+    background-color: white;
+    margin-top: 10%;
+    margin-left: 4%;
+    border-radius: 3%;
+}
