@@ -15,14 +15,13 @@
         
         var $this = $(this),
             $parent = $this.parent(),
-            console.log($parent)
             height = $parent.height(),
             width = $parent.width(),
             top = Math.floor(Math.random() * (height / 2)) + height / 4,
             left = Math.floor(Math.random() * (width / 2)) + width / 4,
             vectorX = settings.speed * (Math.random() > 0.5 ? 1 : -1),
             vectorY = settings.speed * (Math.random() > 0.5 ? 1 : -1);
-
+            console.log($parent);
         // place initialy in a random location
         $this.css({
             'top': top,
