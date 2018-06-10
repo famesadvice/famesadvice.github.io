@@ -1,0 +1,48 @@
+body {
+  margin: 0px;
+}
+
+.header {
+    background: url("/hebrew-landscape.jpg") no-repeat center;
+    height: 35%;
+    background-size: cover;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    font-size: 80px;
+    font-weight: bold;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.content {
+    background-color: #ff7600a3;
+    height: 100%;
+}
+
+.links {
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    height: 100%;
+    border-radius: 1%;
+}
+
+a {
+    margin-left: 3%;
+    margin-top: 3%;
+    display: inline-block;
+}
+
+p {
+    margin-left: 3%;
+    font-weight: bolder;
+}
+
+li {
+  margin-left: 6%;
+}
