@@ -14,7 +14,7 @@
     return $(this).each(function() {
         
         var $this = $(this),
-            $parent = $this.parent().parent(),
+            $parent = $this.parent(),
             height = $parent.height(),
             width = $parent.width(),
             top = Math.floor(Math.random() * (height / 2)) + height / 4,
@@ -72,7 +72,7 @@
 };
 
 $(function() {
-    $('#wrapper a li').bounce({
+    $('#wrapper li').bounce({
         'speed': 4
     });
 });
@@ -88,29 +88,25 @@ $(function() {
   </div>
   <div class="bubbles">
   <ul id="wrapper">
-    <a href="/japanese.html">
+
       <li id="japanese">Japanese</li>
-    </a>
-    <a href="/chinese.html">
+    
+
       <li id="chinese">Chinese</li>
-    </a>
-    <a href="/arabic.html">
+
     <li id="arabic">Arabic</li>
-      </a>
-    <a href="/persian.html">
+
     <li id="persian">Persian</li>
-      </a>
-    <a href="/hebrew.html">
+
     <li id="hebrew">Hebrew</li>
-      </a>
-    <a href="/general.html">
+
     <li id="general">General</li>
-      </a>
+
 </ul>
     <div>
       
 <script type="text/javascript">
-  /*
+
   document.getElementById("japanese").addEventListener("click", japanesePage);
   function japanesePage() {
   window.open ('/japanese.html','_self',false);
@@ -139,7 +135,7 @@ $(function() {
   document.getElementById("general").addEventListener("click", generalPage);
   function generalPage() {
   window.open ('/general.html','_self',false);
-  };*/
+  };
 </script>
       
 
