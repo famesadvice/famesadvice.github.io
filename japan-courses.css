@@ -1,2 +1,15 @@
-body {  
+body {
+  margin: 0px;
+}
+
+.header {
+    background: url(/japan-landscape.jpg) no-repeat center;
+    height: 35%;
+    background-size: cover;
+}
+
+.title {
+  font-size: x-large;
+  font-weight: bold;
+  color: white;
 }
