@@ -1,5 +1,5 @@
 body {
-  background: url("/mary.jpg") no-repeat center center-fixed;
+  background: url("/mary.jpg") no-repeat center center fixed;
   background-size: cover;
   margin: 0px;
 }
