@@ -5,3 +5,43 @@ body {
    background-size: cover;
    margin: 0px;
 }
+
+.toprow {
+   background-color: #f8f8f894;
+    width: 23%;
+    height: 17%;
+    margin-left: 1%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    margin-right: 2%;
+    display: flex;
+    border-radius: 15%;
+}
+
+.container {
+   height: 100%;
+   font-size: xx-large;
+   font-family: Chewy;
+}
+
+.col-sm {
+   background-color: #f8f8f894;
+   margin-top: 1%;
+   border-radius: 10%;
+   margin-right: 1%;
+   transition: all 0.3s ease;
+}
+
+#finalrow {
+   margin-bottom: 1%;
+}
+
+.card {
+   height: 100%;
+   background-color: transparent;
+   border: none;
+}
+
+.col-sm:hover {
+   transform: scale (1.1);
+}
