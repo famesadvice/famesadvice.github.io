@@ -6,13 +6,14 @@ body {
    margin: 0px;
 }
 
-#option {
-   background-color: #ffffff69;
-    height: 6.25%;
-    width: 35%;
-    margin-left: auto;
-    text-align: center;
-    font-weight: 900;
-    vertical-align: middle;
-    font-size: larger;
+.content div {
+   background-color: #f8f8f894;
+    width: 23%;
+    height: 17%;
+    margin-left: 1%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    margin-right: 2%;
+    display: flex;
+    border-radius: 15%;
 }
