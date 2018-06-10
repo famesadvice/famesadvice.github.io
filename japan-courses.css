@@ -37,3 +37,12 @@ a {
     margin-top: 3%;
     display: inline-block;
 }
+
+p {
+    margin-left: 3%;
+    font-weight: bolder;
+}
+
+li {
+  margin-left: 6%;
+}
