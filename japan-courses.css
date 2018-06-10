@@ -6,10 +6,14 @@ body {
     background: url(/japan-landscape.jpg) no-repeat center;
     height: 35%;
     background-size: cover;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
 
 .title {
-  font-size: x-large;
-  font-weight: bold;
-  color: white;
+    font-size: 80px;
+    font-weight: bold;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
