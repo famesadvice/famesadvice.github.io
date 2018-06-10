@@ -26,13 +26,14 @@ body {
    background-color: #f8f8f894;
    margin-top: 1%;
    border-radius: 10%;
+   margin-right: 1%;
 }
 
 #finalrow {
    margin-bottom: 1%;
 }
 
-#option {
+.card {
    height: 100%;
    background-color: transparent;
    border: none;
