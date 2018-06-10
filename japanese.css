@@ -17,3 +17,17 @@ body {
     display: flex;
     border-radius: 15%;
 }
+
+.container {
+   height: 100%;
+}
+
+.col-sm {
+   background-color: #f8f8f894;
+   margin-top: 1%;
+   border-radius: 10%;
+}
+
+#finalrow {
+   margin-bottom: 1%;
+}
