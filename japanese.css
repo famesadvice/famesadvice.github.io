@@ -25,7 +25,6 @@ body {
 }
 
 .col-sm {
-   background-color: #f8f8f894;
    margin-top: 1%;
    border-radius: 10%;
    margin-right: 1%;
@@ -44,4 +43,24 @@ body {
 
 .col-sm:hover {
    transform: scale (1.1);
+}
+
+a {
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    background-color: #f8f8f894;
+    margin-top: 1%;
+    border-radius: 10%;
+    margin-right: 1%;
+    transition: all 0.3s ease;
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
