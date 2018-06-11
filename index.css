@@ -28,6 +28,8 @@ li {
     cursor: pointer;
     font-size: xx-large;
     font-family: Chewy;
+   background: url(/bubble.png) no-repeat;
+    background-size: contain;
 }
 
 .header img {
