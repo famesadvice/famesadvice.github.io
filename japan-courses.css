@@ -21,7 +21,6 @@ body {
 .content {
     background-color: #6c53b5;
     height: 100%;
-    flex-grow: 1;
 }
 
 .links {
@@ -31,6 +30,7 @@ body {
     width: 70%;
     height: 100%;
     border-radius: 1%;
+    overflow-y: scroll;
 }
 
 a {
