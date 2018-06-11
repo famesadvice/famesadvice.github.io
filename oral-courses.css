@@ -38,7 +38,6 @@ body {
 
 a {
     margin-left: 3%;
-    margin-top: 3%;
     display: inline-block;
 }
 
@@ -53,4 +52,10 @@ li {
 
 h3 {
   margin-left: 3%;
+  margin-top: 3%;
+}
+
+.info {
+  display: inline-flex;
+  margin-left: 1%;
 }
