@@ -64,3 +64,8 @@ a {
     align-items: center;
     justify-content: center;
 }
+
+a:hover {
+    text-decoration: none;
+    transform: scale(1.1);
+}
