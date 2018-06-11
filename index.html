@@ -15,7 +15,7 @@
     return $(this).each(function() {
         
         var $this = $(this),
-            $parent = $this.parent(),
+            $parent = $this.parent().parent(),
             height = $parent.height(),
             width = $parent.width(),
             top = Math.floor(Math.random() * (height / 2)) + height / 4,
