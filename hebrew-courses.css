@@ -50,9 +50,3 @@ p {
 li {
   margin-left: 6%;
 }
-
-.back {
-  float: left;
-  background: url("/poppins.png") no-repeat center;
-  background-size: contain;
-}
