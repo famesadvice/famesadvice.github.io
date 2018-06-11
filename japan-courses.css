@@ -55,3 +55,7 @@ li {
     display: inline-flex;
     margin-left: 1%;
 }
+
+h2 {
+  text-align: center;
+}
