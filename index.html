@@ -41,7 +41,7 @@
                 width = $e.width(),
                 height = $e.height(),
                 vector = $e.data('vector'),
-                $parent = $e.parent();
+                $parent = $e.parent().parent();
 
             if (offset.left <= 0 && vector.x < 0) {
                 vector.x = -1 * vector.x;
