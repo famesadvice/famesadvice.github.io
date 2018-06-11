@@ -22,8 +22,8 @@
             left = Math.floor(Math.random() * (width / 2)) + width / 4,
             vectorX = settings.speed * (Math.random() > 0.5 ? 1 : -1),
             vectorY = settings.speed * (Math.random() > 0.5 ? 1 : -1);
-            console.log($parent);
         // place initialy in a random location
+      
         $this.css({
             'top': top,
             'left': left
@@ -39,7 +39,7 @@
                 height = $e.height(),
                 vector = $e.data('vector'),
                 $parent = $e.parent();
-
+console.log(offset);
             if (offset.left <= 0 && vector.x < 0) {
                 vector.x = -1 * vector.x;
             }
