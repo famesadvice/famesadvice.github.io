@@ -20,7 +20,7 @@ body {
 
 .content {
     background-color: #95ffb6;
-    height: 100%;
+    height: max-content;
 }
 
 .links {
