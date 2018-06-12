@@ -39,6 +39,7 @@ body {
 a {
     margin-left: 3%;
     display: inline-block;
+    font-size: 20px;
 }
 
 p {
