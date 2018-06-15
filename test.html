@@ -10,6 +10,7 @@
 
     <title>J1 and J2</title>
     <script>
+      $(document).ready(function(){
       function getRandomInt(min, max) {
     return Math.floor(Math.random() * (max - min + 1)) + min;
 }
@@ -17,7 +18,7 @@
       
       var choice = getRandomInt(0,4);
       document.getElementById("styling").setAttribute("href", stylesheets[choice]+"-courses.css");
-      
+      });
    function show(x) {
      console.log(x);
       $('#'+x+'').popover('show');
