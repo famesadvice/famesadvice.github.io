@@ -52,6 +52,20 @@ li {
   margin-left: 6%;
 }
 
+.info {
+    display: inline-flex;
+    margin-left: 1%;
+}
+
+h2 {
+  text-align: center;
+}
+
+.listheader {
+    display: flex;
+    margin-top: 3%;
+}
+
 .back {
   float: left;
   background: url("/poppins.png") no-repeat center;
