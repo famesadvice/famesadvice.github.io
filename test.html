@@ -10,6 +10,14 @@
 
     <title>J1 and J2</title>
     <script>
+      function getRandomInt(min, max) {
+    return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+      var stylesheets = ["japan", "china", "arabic", "persian", "hebrew"];
+      
+      var choice = getRandomInt(0,4);
+      document.getElementById("styling").setAttribute("href", stylesheets[choice]+"-courses.css");
+      
    function show(x) {
      console.log(x);
       $('#'+x+'').popover('show');
@@ -21,15 +29,6 @@
     </script>
   </head>
   <body>
-    <script>
-            function getRandomInt(min, max) {
-    return Math.floor(Math.random() * (max - min + 1)) + min;
-}
-      var stylesheets = ["japan", "china", "arabic", "persian", "hebrew"];
-      
-      var choice = getRandomInt(0,4);
-      document.getElementById("styling").setAttribute("href", stylesheets[choice]+"-courses.css");
-    </script>
     <div class="back" onclick="window.open('/index.html','_self')">
   </div>
     <div class="header">
